@@ -1,3 +1,5 @@
+In order to run the application, firstly insert the api keys in the class BotInjectorModule, present in subProject aFilmyBotServices, in the package, linkBotToTelegram. In order to execute the application, call the Main method of InitBot class.
+
 MyTelegramBot class in a subclass of TelegramLongPollingBot which is part of the Telegram api. It has a method onUpdateReceived which is executed whenever a message is received. If the message has text, using the dependency for api.ai (project name is libai) we make a request to the api.ai server and receive a response containing the action or intent, and the parameters if present. The same is done if it has an audio message. 
 
 The AIResponse object has a getResult() method, the instance received from this is passed on to AccessTmdbApi instance, it checks the result instance for intended action (i.e search for movie by name) and calls the appropriate method that can handle it. 
@@ -14,3 +16,6 @@ For example, if the given query was "search for a movie by the name Avengers", t
  
  Lastly, in order to use the voice message function, you need the application_default_credentials.json file from google. More information is present here: https://developers.google.com/identity/protocols/application-default-credentials
  
+This project contains parts from some other github projects:
+1. libai is part of apiai-java-client from https://github.com/api-ai/apiai-java-client
+2. api-themoviedb is taken from https://github.com/Omertron/api-themoviedb

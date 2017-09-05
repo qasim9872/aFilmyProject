@@ -1,0 +1,30 @@
+Search for movie by name:
+example 1: Search for a movie by the name avengers
+example 2: Search for The avengers
+example 3: Lookup a film with the name avengers
+example 4: find Cloud atlas and The avengers (Will return search results for both)
+
+Search for movie by genre:
+example 1: Search for an adventurous movie
+example 2: Search for a mystery, horror film (Finds a movie that is mystery and horror)
+example 3: Lookup a rom com 
+example 4: Science fiction films
+
+Search for Top Ranked movies:
+example 1: Find top ranking films
+example 2: Top rated movies
+example 3: Lookup for top rated films
+example 4: get the highest rated films
+example 5: search top
+
+Search for Popular movies:
+example 1: Find popular films
+example 2: popular movies
+example 3: Lookup popular films
+example 4: show most popular movies
+
+Search for Now Showing movies:
+example 1: can you lookup now showing movies
+example 2: lookup new movies
+example 3: show now showing
+example 4: search movies in cinema now
