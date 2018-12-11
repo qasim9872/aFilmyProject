@@ -18,4 +18,4 @@ For example, if the given query was "search for a movie by the name Avengers", t
  
 This project contains parts from some other github projects:
 1. libai is part of apiai-java-client from https://github.com/api-ai/apiai-java-client
-2. api-themoviedb is taken from https://github.com/Omertron/api-themoviedb
+2. api-themoviedb is taken from https://github.com/Omertron/api-themoviedb 
